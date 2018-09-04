@@ -7,3 +7,24 @@ Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
 	For control. And control is power. Auto pulling might result in data loss.
+	
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+
+	Fork is a cooking utensil, clone is probably a sheep, and branch is a part of a tree.
+	
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	
+	You know how much you are ahead of the origin/master, and what others can and cannot see.
+	
+How would you collaborate without using Git or GitHub? 
+What would be easier, and what would be harder?
+	
+	Without Git&GitHub you'd have to collaborate via mail or share a workstation.
+	
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+	It allows for the working code in master to remain intact and experiment as much as you
+	want. It's more beneficial to do this, though with small changes and fixes it's a bit
+	redundant, those can be made directly on the master to keep the main branch updated.
